@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miro Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="row">
+        <div class="col">
+            <div class="encabezado">
+                <div class="row">
+                    <div class="col-4">
+                            <img src="./icon.png" alt="iconshop" class="iconS">
+                    </div>
+                    <div class="col">
+                            <h3 class="title">Miro Store</h3>
+                    </div> 
+
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col"> 
+                        <h5>The only one</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="contenedor  ">
+        <div class="row">
+            <div class="col">
+                <h2>Nuevo producto:</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col ">
+                <div class="contenedor-form ">
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="nombre">Nombre: </h5>
+                        </div>
+                        <div class="col">
+                            <h5 class="tprecio" id="tprecio" >Precio: </h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="nombre">
+                                            <input type="nombre" class="form-control" id="nomb" placeholder="Camisetas Yupan" required>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="precio">
+                                            <input type="number" class="form-control" id="precio" placeholder="$999" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col"><h5 class="talle" id="talle">Talle:</h5></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>Seleccione un talle</option>
+                                            <option value="1">T-2</option>
+                                            <option value="2">T-4</option>
+                                            <option value="3">T-6</option>
+                                          </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6" ></div>
+                                    <div class="col">
+                                        <button type="button" class="btn btn-primary mt-4">Agregar Producto</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h4 class="listaP">Lista de productos</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 ">
+                        <div class="productocol1">
+                            <div class="row">
+                                <div class="col mx-2 mt-2">
+                                    Botines Adidas Ace 17.3
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><p class="cash">$ 23966</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btnVer btn-primary ">VER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="productocol2">
+                            <div class="row">
+                                <div class="col mx-2 mt-2">
+                                    Botines Adidas Ace 17.3
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><p class="cash">$ 23966</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btnVer btn-primary ">VER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 ">
+                        <div class="productocol1">
+                            <div class="row">
+                                <div class="col mx-2 mt-2">
+                                    Botines Adidas Ace 17.3
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><p class="cash">$ 23966</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btnVer btn-primary ">VER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="productocol2">
+                            <div class="row">
+                                <div class="col mx-2 mt-2">
+                                    Botines Adidas Ace 17.3
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col"><p class="cash">$ 23966</p></div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="button" class="btnVer btn-primary ">VER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    body {
+    background: #10ebeb ;
+    
+    }
+    .contenedor{
+        width: 600px;
+        height: 800px;
+        background: #fdfdfd;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px; 
+        margin-bottom: 30px;
+        border-radius: 100px;
+    }
+
+    h3.title{
+        float: left;
+        padding-top: 6px;
+        font-size: 30px;
+    }
+    
+    img.iconS{
+        float: right;
+        padding-top: 10px;
+    }
+
+    div.divIcon{
+        width: 50%;
+        height: 60px;
+        background: seagreen;
+        margin-left: 10px;
+    }
+
+    .contenedor h2 {
+        padding-left: 100px;
+        padding-top: 50px;
+        
+    }
+
+    .nombre{
+        padding-left: 35px;
+        
+    }
+
+    .nombre input{
+        height: 40px;
+        width: 200px;
+    }
+
+    .precio{
+        padding-left: 20px;
+    }
+
+    .precio input{
+        height: 40px;
+        width: 100px;
+    }
+
+    .contenedor-form h5.nombre{
+        padding-top: 35px;
+        padding-left: 35px;
+    }
+
+    .contenedor-form h5.tprecio{
+        padding-top: 35px;
+        padding-left: 55px;
+    }
+
+    .contenedor-form h5.talle{
+        padding-left: 35px;
+    }
+
+    
+    div.productocol1{
+        margin-top: 15px;
+        float: right;
+        width: 198px;
+        height: 120px;
+        background: #d4d7da ;
+    }
+
+   
+
+    div.productocol2{
+        margin-top: 15px;
+        float: left;
+        width: 198px;
+        height: 120px;
+        background: #d4d7da ;
+       
+    }
+
+    h4.listaP {padding-top: 35px;
+        padding-left: 15%;
+    }
+
+    .contenedor-form {
+        width: 420px;
+        height: 290px;
+        background-color: #d4d7da;
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+
+    .contenedor-form h5{
+        
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .contenedor-form select{
+        height: 40px;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p.cash{
+        padding-left: 10px;
+        padding-top: 0%;
+        color: darkmagenta;
+        font-weight: bold;
+    }
+
+    button.btnVer{
+        width: 80%;
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    div.encabezado{
+        height: 80px;
+        width: 500px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #10ebeb;
+    }
+</style>
